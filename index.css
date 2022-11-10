@@ -1,0 +1,89 @@
+.titulo{
+    color:#E14D2A;
+}
+body{
+    background-color: white;
+    font-family: AppleGothic;
+    z-index: 2;
+}
+.headerInicio{
+    background-color: #343F56;
+    border-bottom: #FB9300 solid 9px;
+}
+.iconInicio{
+    font-size: 30px;
+}
+.textoInicio{
+    color: #FB9300;
+    margin-left: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+a:hover{
+    color: #F54748 !important;
+}
+.navTabInicio{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.navTablChildInicio{
+    width: 80%;
+    border-bottom: solid #343F56 1px;
+}
+.navTablChildInicio ul li a{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #FB9300;
+}
+.cardInicio{
+    width: 40%;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.cardInicio h5{
+    margin-bottom: 30px;
+}
+.cardInicio h6{
+    margin-top: 30px;
+}
+.divBarras{
+    float: right;
+    background-color: #E14D2A;
+    width: 45%;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    height:450px;
+}
+.divBarras img{
+    height: 100%;
+    width: 100%;
+}
+i{
+
+    display: inline-block !important;
+}
+h9{
+    display: inline-block !important;
+}
+.card{
+    border: #FB9300 solid 1px;
+}
+.cardInicio i{
+    color: #343F56;
+}
