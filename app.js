@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 var ghpages = require('gh-pages');
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+
 
 const fs = require("fs");
 const csv = require('csvtojson');
@@ -32,7 +35,5 @@ if (typeof document !== "undefined") {
 }
 
 
-(async ()=>{
-   const leer = await csv().fromFile("leer.csv");
-   //console.log(leer);
-})();
+
+
